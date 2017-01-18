@@ -15,8 +15,6 @@ The supervisor measures the progress of the subordinate, given its current state
 3. Reward (Supervisor → Subordinate):
 The supervisor reinforces the behavior of the subordinate, given its current state and goal. 
 
-Passing a message to a sub-agent is equal to performing an action in an environment. Therefore, message passing is a learned behavior, adjusted using the reward mechanism, and selected in order to reach a goal. A supervisor’s environment is the set of its sub-agents, the actions within the environment are messages passed, and the inputs from the environment are messages received.
- 
 ##Learning
 
 An agent must accumulate knowledge from the standpoint of both a supervisor and a subordinate. Supervisors learn sub-agents’ abilities via reports over time, while sub-agents learn correct actions to take via rewards over time.
