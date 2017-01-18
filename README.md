@@ -15,7 +15,7 @@ Report messages allow an agent to broadcast its progress to another agent. They 
 Reward messages allow an agent to reinforce the behavior of another agent. They propagate downward from supervisor to subordinate.
 
 
-##Learning
+## Knowledge and Learning
 
 An agent must accumulate knowledge from the standpoint of both a supervisor and a subordinate. Supervisors learn sub-agents’ abilities via reports over time, while sub-agents learn correct actions to take via rewards over time.
 	
