@@ -8,11 +8,11 @@ Processing agents are agents that perform actions in their environment. Processi
 
 Processing agents form hierarchies of supervisors and subordinates (sub-agents). These labels are purely relative and are dependent on the point-of-view that an agent is referenced from. Three types of messages are passed between processing agents:
 
-1.	Command (Supervisor → Subordinate): 
+1. Command (Supervisor → Subordinate): 
 The supervisor overrides the goal of the subordinate with a new goal.
-2.	Report (Subordinate → Supervisor):
+2. Report (Subordinate → Supervisor):
 The supervisor measures the progress of the subordinate, given its current state.
-3.	Reward (Supervisor → Subordinate):
+3. Reward (Supervisor → Subordinate):
 The supervisor reinforces the behavior of the subordinate, given its current state and goal. 
 
 Passing a message to a sub-agent is equal to performing an action in an environment. Therefore, message passing is a learned behavior, adjusted using the reward mechanism, and selected in order to reach a goal. A supervisor’s environment is the set of its sub-agents, the actions within the environment are messages passed, and the inputs from the environment are messages received.
