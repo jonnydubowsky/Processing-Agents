@@ -1,19 +1,19 @@
 # Processing Agents
 
-##Structure
+## Structure and Function
 
-Processing agents are agents that perform actions in their environment. Processing agents select actions according to their current states and their goal states, where the current state is an observed state of the environment and the goal state is a desired state of the environment. Agents are "motivated" to reduce the difference between their current states and their goal states, and attempt to do so by selecting actions based on their "beliefs", or their knowledge about the effects of actions in particular states, relative to goals.
+Processing agents are agents that perform actions in their environment. Agents select actions according to their current states and their goal states, where the current state is an observed state of the environment and the goal state is a desired state of the environment. Agents are "motivated" to reduce the difference between their current states and their goal states, and attempt to do so by selecting actions based on their "beliefs", or their knowledge about the effects of actions in particular states, relative to goals.
 
-##Interactions
+## Organization and Communication
 
-Processing agents form hierarchies of supervisors and subordinates (sub-agents). These labels are purely relative and are dependent on the point-of-view that an agent is referenced from. Three types of messages are passed between processing agents:
+Organizations of agents, called societies, are hierarchical systems of agents called supervisors and subordinates. These labels, although purely relative, determine how interactions occur between agents in a society. Signals, called messages, are sent from supervisors to subordinates and vice-versa. These signals propagate through a society using specific message types. 
 
-1. Command (Supervisor → Subordinate): 
-The supervisor overrides the goal of the subordinate with a new goal.
-2. Report (Subordinate → Supervisor):
-The supervisor measures the progress of the subordinate.
-3. Reward (Supervisor → Subordinate):
-The supervisor reinforces the behavior of the subordinate.
+Command messages allow an agent to set the goal of another agent. They propagate downward from supervisor to subordinate.
+
+Report messages allow an agent to broadcast its progress to another agent. They propagate upward from subordinate to supervisor. 
+
+Reward messages allow an agent to reinforce the behavior of another agent. They propagate downward from supervisor to subordinate.
+
 
 ##Learning
 
