@@ -11,9 +11,9 @@ Processing agents form hierarchies of supervisors and subordinates (sub-agents).
 1. Command (Supervisor → Subordinate): 
 The supervisor overrides the goal of the subordinate with a new goal.
 2. Report (Subordinate → Supervisor):
-The supervisor measures the progress of the subordinate, given its current state.
+The supervisor measures the progress of the subordinate.
 3. Reward (Supervisor → Subordinate):
-The supervisor reinforces the behavior of the subordinate, given its current state and goal. 
+The supervisor reinforces the behavior of the subordinate.
 
 ##Learning
 
