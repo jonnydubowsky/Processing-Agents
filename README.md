@@ -23,4 +23,4 @@ Data is held in two separate knowledge bases. Information about sub-agents and t
 	
 Information in the supervisor-store is obtained via supervised learning, where a subordinate’s progress is used to approximate the fitness with respect to a goal. Information in the subordinate-store is obtained via reinforcement learning, where a supervisor’s reward is used to infer the best actions to take with respect to a goal.
 
-![Learning Process](https://github.com/CarsonScott/Processing-Agents/blob/master/img/learning-process.png)
+![Learning Process](https://github.com/CarsonScott/Processing-Agents/blob/master/img/Learning Process.png)
