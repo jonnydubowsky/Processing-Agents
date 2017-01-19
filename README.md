@@ -36,7 +36,7 @@ A society is an entity with a hierarchical structure that executes specific task
 A supervisor has the ability to terminate a subordinate agent. In the event that a sub-agent fails to perform adequately on a consistent basis, or causes a decline in its coworker’s performance, it may be reset. In other words, the sub-agent’s memory is cleared to get rid of all malicious behavior, thus replacing the bad agent with a “new” employee.
 
 ## Employment
-A terminated agent must learn everything from the ground up. The new agent cannot be expected to perform as well as the others until it has received the proper amount of training. In other words, a supervisor must treat a new agent differently than the previous agent.
+A terminated agent must learn everything from the ground up. The new agent cannot be expected to perform as well as the others until it has received the proper amount of training, therefore a supervisor must treat a new agent differently than the previous agent.
 
-Following a termination, the supervisor must delete a portion of its knowledge (i.e. Perceived fitness of the terminated agent with respect to goals). All information regarding the new agent is held in the storage space that becomes available after the old agent is fired.
+Following a termination, the supervisor clears all data regarding the previous agent's abilities by wiping a portion of its own memory. All information regarding the new agent is held in the storage space that becomes available after the old agent is fired.
 
