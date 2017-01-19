@@ -25,6 +25,8 @@ Information in the supervisor-store is obtained via supervised learning, where a
 
 ![Learning Process](https://github.com/CarsonScott/Processing-Agents/blob/master/img/Learning Process.png)
 
+***
+
 # Business Analogy and Employees
 
 ## Society as a Business
