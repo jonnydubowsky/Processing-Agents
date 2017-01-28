@@ -39,3 +39,15 @@ A terminated agent must learn everything from the ground up. The new agent canno
 
 Following a termination, the supervisor clears all data regarding the previous agent's abilities by wiping a portion of its own memory. All information regarding the new agent is held in the storage space that becomes available after the old agent is fired.
 
+## Goal Representation and Reinforcement
+A goal value is a label for some unknown state of the environment. The correct target state of each goal must somehow be realized. The agent stores a predicted target state for each goal and performs iterative changes in order to fit the real state. Target updates are based on current and previous states, along with the associated rewards. At each time step, the agent calculates the state delta and multiplies each value by the reward and learning rate, which is then added to the target state.
+
+T  = T  + ∂r(S - P)
+
+- T is an element of the target state
+- S is an element of the current state
+- P is an element of the previous state
+- r is the reward
+- ∂ is the learning rate
+
+
