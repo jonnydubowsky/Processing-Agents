@@ -4,11 +4,11 @@
 If x is an input and c is a cost, ɸ(x,c) is a function that returns an output. The input is a set of values received from a sensory system, the cost is a value received from a utility system, and the output is a set of values passed to a motor system.
 
 ### Algorithm
-Five processing steps are required to produce an output from a given input and cost. The steps are: receive (perception), update (learning), find (reasoning), set (prediction), and send (action). Each step contains two functions, which are listed below:
+Five processing steps are required to produce an output from a given input and cost. The steps are: observe (perception), update (learning), find (reasoning), set (prediction), and send (action). Each step contains two functions, which are listed below:
 
 Perception
-- Receive input from the sensory system
-- Receive utility from the performance system
+- Observe input from the sensory system
+- Observe utility from the performance system
 
 Learning
 - Update memory with respect to predicted and actual input
